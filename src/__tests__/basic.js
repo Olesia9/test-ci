@@ -1,5 +1,5 @@
 // const { calculateTotal } = require('../calculate') //извлекаем пакет, синтаксис CommonJs
-import { calculateTotal } from '../calculate';
+import calculateTotal from '../calculate';
 
 test('calculateTotal sum', () => {
   const list = [
